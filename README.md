@@ -48,3 +48,14 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+Setup:
+-Setup db on appwrite. Then enable Google on Auth. 
+-Setup Google Auth Platform on console cloud google. Clients -> CreateOAuth client id -> Web Application -> fill
+Authorized redirect URIs with appwrite with URI on Google OAuth2 Settings (Appwrite) -> Back to appwrite, fill app id
+and app secret from google console (overview).
+
+New Arch:
+-Fabric for rendering
+-Turbo modules for native modules
+-JSI to allow direct sync communication between Javascript and native code without the bridge.
